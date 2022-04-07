@@ -344,6 +344,8 @@
 	
 	.banner-section-two .content-column .inner-column{
 		padding-top:0px;
+		margin-bottom: 0px;
+		padding-bottom: 0;
 	}
 	
 	.banner-section-two{
