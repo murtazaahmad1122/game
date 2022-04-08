@@ -366,7 +366,7 @@ img{
 	border-radius: 3px;
 	overflow:hidden;
 	text-transform: capitalize;
-	background-color:#ADD8E6;
+	background-color:#3498DB;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -379,7 +379,7 @@ img{
 	height:100%;
     z-index: 1;
     opacity: 1;
-    background-color: #ffffff;
+    background-color: #ADD8E6;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -394,12 +394,13 @@ img{
 
 .btn-style-two:hover::before{
 	left:0%;
+	color: #000;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
 }
 
 .btn-style-two:hover{
-	color: #141d38;
+	color: black;
 }
 
 /* Btn Style Three */
@@ -3611,7 +3612,7 @@ img{
 	position:relative;
 	z-index: 9;
 	background-color: #ffffff;
-	padding:60px 0px 40px;
+	padding:10px 0px  30px 0px;
 }
 
 .register-section .form-column{
@@ -6697,10 +6698,10 @@ img{
 .banner-section-two .content-column .video-box .ripple:before,
 .banner-section-two .content-column .video-box .ripple:after {
     position: absolute;
-    top: 50%;
+	top: 50%;
     left: 50%;
-    height: 60px;
-    width: 60px;
+    height: 45px;
+    width: 50px;
 	margin-left:.5px;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -6847,7 +6848,7 @@ img{
 }
 
 .banner-section-two .content-column .play-box{
-	margin-top:35px;
+	margin-top:10px;
 	opacity: 0;
 	transform: scaleY(0);
 	transform-origin: top;
